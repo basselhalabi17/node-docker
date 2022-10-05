@@ -45,8 +45,8 @@ app.use(express.json())
 const port = process.env.PORT || 3000
 
 app.get('/api/v1',(req,res)=>{
-    res.send("<h2>Hi</h2>")
-    console.log("yea it ran")
+    res.send("<h2>Hiiiiii</h2>")
+    console.log("yea it ranoooo")
 })
 //localhost:3000/api/v1/posts
 app.use('/api/v1/posts',router)
